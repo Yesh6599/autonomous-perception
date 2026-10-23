@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+
+# Models (downloaded automatically)
+*.pt
+*.onnx
+*.engine
+
+# Output (keep metric logs and benchmark results, ignore heavy video)
+output/*.mp4
+output/*.avi
+output/*.mov
+output/*.mkv
+
+
+# Data (too large for git)
+data/*.mp4
+data/*.avi
+data/*.mov
+data/bdd100k/
+data/kitti/
+
+# Logs
+wandb/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+# Core
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# YOLO + Tracking
+ultralytics>=8.0.0
+supervision>=0.18.0
+
+# Depth Estimation
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.9.0
+
+# Experiment Tracking
+wandb>=0.16.0
+
+# Utilities
+tqdm>=4.65.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+PyYAML>=6.0
+requests>=2.31.0
+
+# ONNX Export
+onnx>=1.14.0
+onnxruntime>=1.16.0

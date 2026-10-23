@@ -1,0 +1,5 @@
+pytorch_avg_latency_ms: 90.76
+pytorch_fps: 11.02
+onnx_avg_latency_ms: 34.16
+onnx_fps: 29.27
+speedup: 2.66
